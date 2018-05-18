@@ -1,0 +1,25 @@
+{% extends 'layout.twig' %}
+
+{% block body %}
+<div class="container">
+    <div class="titulo">
+        <h1>{{title}}</h1>
+    </div>
+    <div class="menu">
+        <table id="tabla">
+            <thead>
+                <tr>
+                    <th>Comprar</th>
+                    <th>Pizzas</th>
+                    <th>Precio</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <div class="calculo">
+        <span class="total">
+            Total: $ <span id="total">0.00</span>
+        </span>
+    </div>
+</div>
+{% endblock %}
