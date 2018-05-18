@@ -1,11 +1,18 @@
-Laravel
+# Laravel
 
-https://laracasts.com/series/laravel-from-scratch-2017/episodes/1
-
-composer create-project laravel/laravel laravel-project
-cd laravel-project
+- [Laracasts](https://laracasts.com)
 
 
-composer require rcrowe/twigbridge
+## Comandos
 
-composer require jenssegers/mongodb
+`composer create-project laravel/laravel laravel-project`
+`cd laravel-project`
+
+
+### [Twig](https://github.com/rcrowe/TwigBridge)
+
+`composer require rcrowe/twigbridge`
+
+### [Mongo](https://github.com/jenssegers/laravel-mongodb)
+
+`composer require jenssegers/mongodb`
